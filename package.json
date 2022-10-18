@@ -1,15 +1,19 @@
 {
-  "name": "jsaqa_3_2",
+  "name": "playwright",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright"
+    "test": "playwright tests"
   },
-  "author": "",
+  "author": "osa85",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.12.3",
-    "playwright": "^1.12.3"
+    "@playwright/test": "^1.26.0",
+    "playwright": "^1.25.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
   }
 }
